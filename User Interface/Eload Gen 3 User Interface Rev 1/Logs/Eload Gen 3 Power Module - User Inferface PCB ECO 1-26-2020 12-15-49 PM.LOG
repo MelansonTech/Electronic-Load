@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=+3.3VDC Pin=J1-4
+Removed Pin From Net: NetName=GND Pin=J1-6
+Removed Pin From Net: NetName=DAT0 Pin=J1-7
+Removed Pin From Net: NetName=DETECT Pin=J1-DT
+Removed Pin From Net: NetName=GND Pin=J1-P1
+Removed Pin From Net: NetName=GND Pin=J1-P2
+Removed Pin From Net: NetName=GND Pin=J1-P3
+Removed Pin From Net: NetName=GND Pin=J1-P4
+Removed Pin From Net: NetName=GND Pin=J1-P5
+Removed Pin From Net: NetName=DETECT Pin=J2-18
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=J1
+Added Pin To Net: NetName=NetJ2_12 Pin=MOD1-3
+Added Pin To Net: NetName=GND Pin=MOD1-6
+Added Pin To Net: NetName=DAT0 Pin=MOD1-7
+Added Pin To Net: NetName=DETECT Pin=MOD1-9
+Added Pin To Net: NetName=CLK Pin=J2-13
+Added Pin To Net: NetName=CLK Pin=MOD1-5
+Added Net: Name=CLK
+Added Pin To Net: NetName=DAT1 Pin=MOD1-8
+Added Net: Name=DAT1
+Added Pin To Net: NetName=NetJ2_17 Pin=J2-17
+Added Pin To Net: NetName=NetJ2_17 Pin=MOD1-2
+Added Net: Name=NetJ2_17
+Added Pin To Net: NetName=NetJ2_18 Pin=J2-18
+Added Pin To Net: NetName=NetJ2_18 Pin=MOD1-10
+Added Net: Name=NetJ2_18

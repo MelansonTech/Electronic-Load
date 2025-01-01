@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=12VDC Pin=C11-2
+Removed Pin From Net: NetName=DIFFPAIRISENSE_P Pin=D3-1
+Removed Pin From Net: NetName=GND Pin=D3-2
+Removed Pin From Net: NetName=12VDC Pin=J6-1
+Removed Pin From Net: NetName=12VDC Pin=MOD1-29
+Removed Pin From Net: NetName=12VDC Pin=R6-1
+Change Component DesignItemId : Designator=Q7 Old DesignItemId=Mosfet,Dpak, Nchannel,90A,30V, IRFR8314TRPBF New DesignItemId=MOSFET, N-Chan, Dpak, 30V, 86A, 75W, IRLR8726TRPBF
+Change Component DesignItemId : Designator=Q8 Old DesignItemId=Mosfet,Dpak, Nchannel,90A,30V, IRFR8314TRPBF New DesignItemId=MOSFET, N-Chan, Dpak, 30V, 86A, 75W, IRLR8726TRPBF
+Change Component DesignItemId : Designator=Q9 Old DesignItemId=Mosfet,Dpak, Nchannel,90A,30V, IRFR8314TRPBF New DesignItemId=MOSFET, N-Chan, Dpak, 30V, 86A, 75W, IRLR8726TRPBF
+Change Component Footprint: Designator=NTC1 Old Footprint=NTC,TH,2.54MM LEAD SPACING,NTCLE100E3103JT2 New Footprint=NTC,TH,2.54mm Lead Spacing,NTCLE100E3103JT2 -RA
+Change Component Comment : Designator=D2 Old Comment=Diode, SOT-23-3,600ma,30V,Dual Common Cathode, BAT54CLT1G New Comment=BAT54CLT1G
+Change Component Comment : Designator=Q7 Old Comment=Infineon IRFR8314TRPBF New Comment= IRLR8726TRPBF
+Change Component Comment : Designator=Q8 Old Comment=Infineon IRFR8314TRPBF New Comment= IRLR8726TRPBF
+Change Component Comment : Designator=Q9 Old Comment=Infineon IRFR8314TRPBF New Comment= IRLR8726TRPBF
+Change Component Description : Designator=Q7 Old Description=Single N-Channel 30 V 2.2 mOhm 36 nC HEXFET® Power Mosfet - DPAK New Description= N-Channel 30V 86A (Tc) 75W (Tc) Surface Mount D-Pak
+Change Component Description : Designator=Q8 Old Description=Single N-Channel 30 V 2.2 mOhm 36 nC HEXFET® Power Mosfet - DPAK New Description= N-Channel 30V 86A (Tc) 75W (Tc) Surface Mount D-Pak
+Change Component Description : Designator=Q9 Old Description=Single N-Channel 30 V 2.2 mOhm 36 nC HEXFET® Power Mosfet - DPAK New Description= N-Channel 30V 86A (Tc) 75W (Tc) Surface Mount D-Pak
+Change Component Library : Designator=D3 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Added Component: Designator=D?(DO214AA)
+Change Net Name : Old Net Name=12VDC New Net Name=NetC10_2
+Added Pin To Net: NetName=12VDC Pin=C11-2
+Added Pin To Net: NetName=12VDC Pin=D?-2
+Added Pin To Net: NetName=12VDC Pin=J6-2
+Added Pin To Net: NetName=12VDC Pin=MOD1-29
+Added Pin To Net: NetName=12VDC Pin=R6-1
+Added Net: Name=12VDC
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=Q3-3
+Added Net: Name=NetJ6_1
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component D? MBRS140
+Added Member To Class: ClassName=Low Current Member=Wire I_LO_GD
+Added Member To Class: ClassName=Low Volt Member=Wire I_LO_GD

@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=NTC1 Old DesignItemId=Sensor,Temp,NTC,10Kohm,0.75%, NTCLE100E3103JT2 New DesignItemId=Sensor,Temp,NTC,33Kohm,±1.5%, NTCLE100E3333JB0
+Change Component Comment : Designator=NTC1 Old Comment=NTCLE100E3103JT2 New Comment=NTCLE100E3333JB0
+Change Component Description : Designator=NTC1 Old Description=THERMISTOR NTC 10KOHM 3977K BEAD New Description=THERMISTOR NTC 33KOHM 4090K BEAD

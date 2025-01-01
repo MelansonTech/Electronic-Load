@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC16_2 Pin=R46-1
+Removed Pin From Net: NetName=V_LD_SENSE_A Pin=R46-2
+Removed Pin From Net: NetName=NetC27_2 Pin=R48-1
+Removed Pin From Net: NetName=V_LD_SENSE_B Pin=R48-2
+Change Component DesignItemId : Designator=R46 Old DesignItemId=Res,1206,1Meg O,0.1%,±15ppm/°C,0.25W,TNPV12061M00BXEN New DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF
+Change Component DesignItemId : Designator=R48 Old DesignItemId=Res,1206,1Meg O,0.1%,±15ppm/°C,0.25W,TNPV12061M00BXEN New DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF
+Change Component Footprint: Designator=R46 Old Footprint=RES,1206 New Footprint=res, 0805, HD
+Change Component Footprint: Designator=R48 Old Footprint=RES,1206 New Footprint=res, 0805, HD
+Change Component Comment : Designator=R46 Old Comment=TNPV12061M00BXEN New Comment=TE Connectivity RP73PF2A100KBTDF
+Change Component Comment : Designator=R48 Old Comment=TNPV12061M00BXEN New Comment=TE Connectivity RP73PF2A100KBTDF
+Added Pin To Net: NetName=V_LD_SENSE_A Pin=R46-1
+Added Pin To Net: NetName=NetC16_2 Pin=R46-2
+Added Pin To Net: NetName=V_LD_SENSE_B Pin=R48-1
+Added Pin To Net: NetName=NetC27_2 Pin=R48-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R9 Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA

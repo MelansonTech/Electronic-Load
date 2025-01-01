@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=NT3-1
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=R2-1
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=R2-2
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Change Component DesignItemId : Designator=Q3 Old DesignItemId=Trans,40V,600mA,0.33W, SMBT2222A New DesignItemId=MOSFET,N-Channel,SOT23,0.25A,60V,2N7002ET1G
+Change Component Comment : Designator=R2 Old Comment=CRCW0805100KFKEA New Comment=Vishay Dale CRCW0805221RFKTA
+Change Component Comment : Designator=Q3 Old Comment=SMBT2222A New Comment=2N7002ET1G
+Change Component Description : Designator=R2 Old Description=100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Thick Film New Description=RES SMD 221 OHM 1% 1/8W 0805
+Change Component Description : Designator=Q3 Old Description=NPN Silicon Switching Transistor, 40 V VCEO, 600 mA IC, SOT23, Reel, Green New Description=Small Signal MOSFET, 60 V, 310 mA, Single, N-Channel, 3-Pin SOT-23, Pb-Free, Tape and Reel
+Change Component Library : Designator=R2 Old Library=Master DEC 2020.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=Q3 Old Library=Master JULY2019.SchLib New Library=Master Mar2021.SchLib
+Change Component Library : Designator=MOD1 Old Library=Master Mar2021.SchLib New Library=Master JULY2019.SchLib
+Added Component: Designator=Q2(SOT23-3)
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=NetJ6_1 Pin=Q2-3
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=R2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=R3-1
+Added Pin To Net: NetName=I_MED_GD Pin=MOD1-15
+Added Net: Name=I_MED_GD
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Net: Name=NetQ2_1
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q2 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Rev 2 Member=Component R1 RK73H2ATTD4752F
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R2 Vishay Dale CRCW0805221RFKTA
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Rev 2 Member=Component R3 CRCW08052K20FKEA

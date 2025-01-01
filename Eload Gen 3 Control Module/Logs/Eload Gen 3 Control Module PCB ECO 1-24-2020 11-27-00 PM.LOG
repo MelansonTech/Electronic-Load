@@ -1,0 +1,7 @@
+Added Component: Designator=R?(res, 0805, HD)
+Added Component: Designator=R?(res, 0805, HD)
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=V_LD_SENSE_B Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=V_LD_SENSE_A Pin=R?-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R? Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=FET_A_DRAIN Pin=R1-1
+Removed Pin From Net: NetName=FET_B_DRAIN Pin=R2-1
+Removed Member From Class: ClassName=Eload Gen 3 Power Module Member=R1
+Removed Member From Class: ClassName=Eload Gen 3 Power Module Member=R2
+Removed Member From Class: ClassName=High Current Member=V_LD
+Removed Member From Class: ClassName=High Volt Member=V_LD
+Added Pin To Net: NetName=FET_B_DRAIN Pin=DB1-1

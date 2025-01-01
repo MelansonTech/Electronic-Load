@@ -1,0 +1,6 @@
+Added Component: Designator=M1(Mech,Bracket,RA,#6,Threaded)
+Added Component: Designator=M2(Mech,Bracket,RA,#6,Threaded)
+Added Pin To Net: NetName=GND Pin=M1-1
+Added Pin To Net: NetName=GND Pin=M2-1
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M1 4334
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M2 4334

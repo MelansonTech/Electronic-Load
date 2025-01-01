@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=RMTVSENSEN Pin=C1-1
+Removed Pin From Net: NetName=RMTVSENSEN Pin=J2-1
+Removed Pin From Net: NetName=RMTVSENSEN Pin=R3-1
+Removed Pin From Net: NetName=RMTVSENSEN Pin=Rly1-5
+Removed Member From Class: ClassName=High Current Member=RMTVSENSEN
+Added Component: Designator=R?(res, 0805, HD)
+Added Pin To Net: NetName=CLK Pin=MOD1-24
+Added Pin To Net: NetName=ROT_SW Pin=MOD1-25
+Added Pin To Net: NetName=CW_LOW Pin=MOD1-26
+Added Pin To Net: NetName=CCW_LOW Pin=MOD1-27
+Added Pin To Net: NetName=12VDC Pin=MOD1-29
+Added Pin To Net: NetName=5VDC Pin=MOD1-30
+Added Pin To Net: NetName=3.3VDC Pin=MOD1-31
+Added Pin To Net: NetName=RMTVSENSEN Pin=MOD1-32
+Added Pin To Net: NetName=RMTVSENSEN Pin=R?-2
+Change Net Name : Old Net Name=RMTVSENSEN New Net Name=GND
+Added Pin To Net: NetName=RMTVSENSEN Pin=C1-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J2-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=R3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=R?-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=Rly1-5
+Added Net: Name=RMTVSENSEN
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Member=Component R? Res1
+Added Member To Class: ClassName=High Current Member=Wire GND
+Added Member To Class: ClassName=Low Current Member=Wire GND
+Added Member To Class: ClassName=Low Volt Member=Wire GND

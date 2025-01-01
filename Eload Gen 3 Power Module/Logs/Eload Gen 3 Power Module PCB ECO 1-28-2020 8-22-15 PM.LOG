@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=DIFFPAIRISENSE_N Pin=Q5-3
+Removed Pin From Net: NetName=DIFFPAIRISENSE_N Pin=Q7-3
+Removed Pin From Net: NetName=DIFFPAIRISENSE_N Pin=R21-1
+Removed Member From Class: ClassName=High Current Member=DIFFPAIRISENSE_N
+Removed Member From Class: ClassName=Low Volt Member=DIFFPAIRISENSE_N
+Change Net Name : Old Net Name=DIFFPAIRISENSE_N New Net Name=NetQ6_3
+Added Pin To Net: NetName=NetQ5_3 Pin=Q5-3
+Added Pin To Net: NetName=NetQ5_3 Pin=Q7-3
+Added Pin To Net: NetName=NetQ5_3 Pin=R21-1
+Added Net: Name=NetQ5_3
+Added Member To Class: ClassName=High Current Member=Wire NetQ5_3
+Added Member To Class: ClassName=Low Volt Member=Wire NetQ5_3
+Added Member To Class: ClassName=High Current Member=Wire NetQ6_3
+Added Member To Class: ClassName=Low Volt Member=Wire NetQ6_3

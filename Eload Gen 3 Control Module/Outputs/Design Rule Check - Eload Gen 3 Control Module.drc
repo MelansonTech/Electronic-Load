@@ -1,0 +1,80 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc
+Date     : 7/9/2020
+Time     : 7:23:14 AM
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_B')),(InNet('+3.3V'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=2.5mm) (InNet('NetCM2_2')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=2.5mm) (InNet('NetCM2_4')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_A')),(InNet('+3.3V'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNet('V_LD_SENSE_B')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNet('V_LD_SENSE_A')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_A')),(InNet('V_LD_SENSE_B'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.025mm) (All),(All)
+   Violation between Via (36.825mm,11.4mm) Top Layer to Bottom Layer and 
+                     Pad Q5-2(36.892mm,10.419mm)  Top Layer
+   Violation between Via (42.075mm,11.4mm) Top Layer to Bottom Layer and 
+                     Pad Q3-1(42.408mm,10.419mm)  Top Layer
+   Violation between Via (63.61mm,12.49mm) Top Layer to Bottom Layer and 
+                     Pad C28-2(63.61mm,11.466mm)  Top Layer
+Rule Violations :3
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+   Violation between Text "VUSB" (81.405mm,27.075mm)  Bottom Overlay and 
+                     Track (53.125mm,31.075mm)(87.125mm,31.075mm)  Bottom Overlay
+   Violation between Text "VUSB" (81.405mm,27.075mm)  Bottom Overlay and 
+                     Track (63.155mm,31.075mm)(83.405mm,31.075mm)  Bottom Overlay
+Rule Violations :2
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (53.125mm,36.825mm)(87.125mm,36.825mm)  Bottom Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (87.125mm,31.075mm)(87.125mm,36.825mm)  Bottom Overlay
+Rule Violations :2
+
+Processing Rule : Unpoured Polygon (Allow unpoured: False)
+Rule Violations :0
+
+
+Violations Detected : 7
+Time Elapsed        : 00:00:01

@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=Low Current Member=RMTVSENSEN
+Removed Member From Class: ClassName=Low Volt Member=RMTVSENSEN
+Removed Member From Class: ClassName=PwrRail Member=RMTVSENSEN
+Removed Member From Class: ClassName=Low Current Member=RMTVSENSEP
+Removed Member From Class: ClassName=Low Volt Member=RMTVSENSEP
+Removed Member From Class: ClassName=PwrRail Member=RMTVSENSEP
+Change Net Name : Old Net Name=RMTVSENSEN New Net Name=RMTVSENSE_N
+Change Net Name : Old Net Name=RMTVSENSEP New Net Name=RMTVSENSE_P
+Added Differential Pair: Name=RMTVSENSE
+Added Member To Class: ClassName=Low Current Member=Wire RMTVSENSE_N
+Added Member To Class: ClassName=Low Volt Member=Wire RMTVSENSE_N
+Added Member To Class: ClassName=PwrRail Member=Wire RMTVSENSE_N
+Added Member To Class: ClassName=Low Current Member=Wire RMTVSENSE_P
+Added Member To Class: ClassName=Low Volt Member=Wire RMTVSENSE_P
+Added Member To Class: ClassName=PwrRail Member=Wire RMTVSENSE_P

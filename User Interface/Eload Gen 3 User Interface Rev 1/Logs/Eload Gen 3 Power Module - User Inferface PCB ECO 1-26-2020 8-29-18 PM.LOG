@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+3.3VDC Pin=D1-1
+Change Component Comment : Designator=D1 Old Comment=LTST-C230KGKT New Comment= LTST-C230KGKT
+Change Component Description : Designator=D1 Old Description=LED GREEN CLEAR CHIP SMD New Description= LED GREEN CLEAR CHIP SMD
+Added Pin To Net: NetName=+3.3VDC Pin=D1-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R14-2
+Added Net: Name=NetD1_1

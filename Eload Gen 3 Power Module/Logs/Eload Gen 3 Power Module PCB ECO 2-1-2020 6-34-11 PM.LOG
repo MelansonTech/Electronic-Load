@@ -1,0 +1,12 @@
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,0.0O,150V New DesignItemId=Res,0805,0.0O,150V
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E New DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Change Component Footprint: Designator=PM1 Old Footprint=Mod,Single TO-247-RA Horizontal CPU Cooler New Footprint=Mod,Single TO-247-RA Horizontal CPU Cooler - LGBracket

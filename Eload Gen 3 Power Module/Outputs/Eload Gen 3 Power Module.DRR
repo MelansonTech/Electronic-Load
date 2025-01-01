@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Eload Gen 3 Power Module.CSPcbDoc   5/2/2020  11:55:21 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Eload Gen 3 Power Module-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Eload Gen 3 Power Module-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Eload Gen 3 Power Module-SlotHoles-Plated.TXT
+EIA File   : Eload Gen 3 Power Module.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          45               421.67 mm (16.60 Inch)
+T2        0.75mm (29.528mil)       Slot           3                7500.95 mm (295.31 Inch)
+T3        0.762mm (30mil)          Round          2                2.54 mm (0.10 Inch)
+T4        1.016mm (40mil)          Round          32               78.74 mm (3.10 Inch)
+T5        1.02mm (40.157mil)       Round          3                5.08 mm (0.20 Inch)
+T6        1.1mm (43.307mil)        Round          3                5.08 mm (0.20 Inch)
+T7        1.27mm (50mil)           Round          4                127.76 mm (5.03 Inch)
+T8        1.4mm (55.118mil)        Round          3                10.88 mm (0.43 Inch)
+T9        1.9304mm (76mil)         Round          12               130.53 mm (5.14 Inch)
+T10       3mm (118.11mil)          Round          2         NPTH   109.70 mm (4.32 Inch)
+T11       3.5mm (137.795mil)       Round          1         NPTH   0.00 mm (0.00 Inch)
+T12       3.8mm (149.606mil)       Round          3         NPTH   146.84 mm (5.78 Inch)
+T13       4mm (157.48mil)          Round          5         NPTH   322.92 mm (12.71 Inch)
+---------------------------------------------------------------------------
+Totals                                            118              8862.69 mm (348.92 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

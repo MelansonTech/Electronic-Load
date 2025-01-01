@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Eload Gen 3 Power Module - User Inferface Rev 2.CSPcbDoc   7/28/2021  11:05:20 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Eload Gen 3 Power Module - User Inferface Rev 2-Plated.TXT
+ASCII Non-Plated RoundHoles File : Eload Gen 3 Power Module - User Inferface Rev 2-NonPlated.TXT
+EIA File   : Eload Gen 3 Power Module - User Inferface Rev 2.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          62               540.21 mm (21.27 Inch)
+T2        0.65mm (25.591mil)       Round          2                5.00 mm (0.20 Inch)
+T3        1mm (39.37mil)           Round          19               136.86 mm (5.39 Inch)
+T4        1.016mm (40mil)          Round          4                57.10 mm (2.25 Inch)
+T5        1.2mm (47.244mil)        Round          4                31.29 mm (1.23 Inch)
+T6        2.6mm (102.362mil)       Round          2                11.40 mm (0.45 Inch)
+T7        2.2mm (86.614mil)        Round          4         NPTH   11.50 mm (0.45 Inch)
+T8        3mm (118.11mil)          Round          2         NPTH   114.45 mm (4.51 Inch)
+T9        3.18mm (125.197mil)      Round          4         NPTH   137.00 mm (5.39 Inch)
+T10       3.5mm (137.795mil)       Round          1         NPTH   0.00 mm (0.00 Inch)
+T11       4mm (157.48mil)          Round          2         NPTH   109.70 mm (4.32 Inch)
+---------------------------------------------------------------------------
+Totals                                            106              1154.51 mm (45.45 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

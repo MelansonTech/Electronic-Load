@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=GND Pin=J1-1
+Removed Pin From Net: NetName=12VDC Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=J6-1
+Removed Pin From Net: NetName=12VDC Pin=J6-3
+Removed Pin From Net: NetName=SCL Pin=J7-2
+Removed Pin From Net: NetName=3.3VDC Pin=J7-4
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=MOD1-1
+Removed Pin From Net: NetName=GND Pin=MOD1-2
+Removed Pin From Net: NetName=GND Pin=MOD1-3
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=MOD1-4
+Removed Pin From Net: NetName=DIFFPAIRISENSE_N Pin=MOD1-5
+Removed Pin From Net: NetName=DIFFPAIRISENSE_P Pin=MOD1-6
+Removed Pin From Net: NetName=GND Pin=MOD1-7
+Removed Pin From Net: NetName=GATE_DRV_A Pin=MOD1-8
+Removed Pin From Net: NetName=GATE_DRV_B Pin=MOD1-9
+Removed Pin From Net: NetName=GND Pin=MOD1-10
+Removed Pin From Net: NetName=GND Pin=MOD1-11
+Removed Pin From Net: NetName=TEMP SENSE Pin=MOD1-12
+Removed Pin From Net: NetName=I_HI_GD Pin=MOD1-13
+Removed Pin From Net: NetName=I_MED_GD Pin=MOD1-14
+Removed Pin From Net: NetName=I_LO_GD Pin=MOD1-15
+Removed Pin From Net: NetName=SCL Pin=MOD1-16
+Removed Pin From Net: NetName=SDA Pin=MOD1-17
+Removed Pin From Net: NetName=3.3VDC Pin=MOD1-18
+Removed Pin From Net: NetName=GND Pin=MOD1-19
+Removed Pin From Net: NetName=12VDC Pin=MOD1-20
+Removed Member From Class: ClassName=Eload Gen 3 Power Module Member=MOD1
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF New DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF New DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res, 2512, shunt, 30mO,1W, LVM25FVR030E-TR New DesignItemId=Res, 2512, shunt, 30mO,1W, LVM25FVR030E-TR
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Added Component: Designator=MOD?(Mod,ELoad Gen 3 Rev 1 Support)
+Added Component: Designator=R?(10K POT)
+Added Pin To Net: NetName=12VDC Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=12VDC Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-3
+Added Pin To Net: NetName=3.3VDC Pin=J7-2
+Added Pin To Net: NetName=SCL Pin=J7-4
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=MOD?-1
+Added Pin To Net: NetName=GND Pin=MOD?-2
+Added Pin To Net: NetName=GND Pin=MOD?-3
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=MOD?-4
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=MOD?-5
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=MOD?-6
+Added Pin To Net: NetName=GND Pin=MOD?-7
+Added Pin To Net: NetName=GATE_DRV_A Pin=MOD?-8
+Added Pin To Net: NetName=GATE_DRV_B Pin=MOD?-9
+Added Pin To Net: NetName=GND Pin=MOD?-10
+Added Pin To Net: NetName=GND Pin=MOD?-11
+Added Pin To Net: NetName=TEMP SENSE Pin=MOD?-12
+Added Pin To Net: NetName=I_HI_GD Pin=MOD?-13
+Added Pin To Net: NetName=I_MED_GD Pin=MOD?-14
+Added Pin To Net: NetName=I_LO_GD Pin=MOD?-15
+Added Pin To Net: NetName=SCL Pin=MOD?-16
+Added Pin To Net: NetName=SDA Pin=MOD?-17
+Added Pin To Net: NetName=3.3VDC Pin=MOD?-18
+Added Pin To Net: NetName=GND Pin=MOD?-19
+Added Pin To Net: NetName=12VDC Pin=MOD?-20
+Added Pin To Net: NetName=3.3VDC Pin=MOD?-22
+Added Pin To Net: NetName=GND Pin=MOD?-23
+Added Pin To Net: NetName=3.3VDC Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-3
+Added Pin To Net: NetName=IADJ Pin=MOD?-21
+Added Pin To Net: NetName=IADJ Pin=R?-2
+Added Net: Name=IADJ
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component MOD? Support PCBA
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R? Res Carbon Film POT 10K Ohm 20% 1/20W

@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=RMTVSENSE_N Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=R4-1
+Removed Pin From Net: NetName=12VDC Pin=R6-2
+Removed Pin From Net: NetName=V_LD Pin=Rly1-3
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=Rly1-4
+Removed Pin From Net: NetName=RMTVSENSE_N Pin=Rly1-6
+Removed Pin From Net: NetName=GND Pin=Rly1-8
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=C1
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=D2
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=Q2
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=R4
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=R6
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=Rly1
+Removed Member From Class: ClassName=Low Current Member=RMTVSENSE_N
+Removed Member From Class: ClassName=Low Volt Member=RMTVSENSE_N
+Removed Member From Class: ClassName=PwrRail Member=RMTVSENSE_N
+Removed Member From Class: ClassName=Low Current Member=RMTVSENSE_P
+Removed Member From Class: ClassName=Low Volt Member=RMTVSENSE_P
+Removed Member From Class: ClassName=PwrRail Member=RMTVSENSE_P
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Change Component Comment : Designator=R1 Old Comment=CR0805-JW-105ELF New Comment=RK73H2ATTD4752F
+Change Component Comment : Designator=R3 Old Comment=RK73H2ATTD4752F New Comment=CRCW08052K20FKEA
+Change Component Comment : Designator=R2 Old Comment=Vishay CRCW08051K00JNEA New Comment=CRCW0805100KFKEA
+Change Component Description : Designator=R3 Old Description=47.5 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film New Description=RES SMD 2.2K OHM 1% 1/8W 0805
+Change Component Description : Designator=R1 Old Description=RES SMD 1M OHM 5% 1/8W 0805 New Description=47.5 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+Change Component Description : Designator=R2 Old Description=Res Thick Film 0805 1K Ohm 5% 0.125W(1/8W) ±200ppm/C Molded SMD Automotive Paper T/R New Description=100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Thick Film
+Change Component Library : Designator=R1 Old Library=Master JULY2019.SchLib New Library=Master DEC 2020.SchLib
+Change Component Library : Designator=R2 Old Library=Master JULY2019.SchLib New Library=Master DEC 2020.SchLib
+Change Component Library : Designator=R3 Old Library=Master JULY2019.SchLib New Library=Master DEC 2020.SchLib
+Change Component Library : Designator=MOD1 Old Library=Master JULY2019.SchLib New Library=Master Mar2021.SchLib
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J2-1
+Added Pin To Net: NetName=RMTVSENSE_N Pin=MOD1-3
+Added Pin To Net: NetName=V_LD Pin=R1-2
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=R2-1
+Added Pin To Net: NetName=RMTVSENSE_N Pin=R2-2
+Change Net Name : Old Net Name=RMTVSENSE_N New Net Name=DIFFPAIRV_LD_SENSE_N
+Added Pin To Net: NetName=LOCVSENSE Pin=MOD1-13
+Added Net: Name=LOCVSENSE
+Change Class Name : Old Net Name=Eload Gen 3 Power Module - Input New Net Name=Eload Gen 3 Power Module - Input Rev 2
+Added Member To Class: ClassName=Low Current Member=Wire LOCVSENSE
+Added Member To Class: ClassName=Low Volt Member=Wire LOCVSENSE
+Added Member To Class: ClassName=PwrRail Member=Wire LOCVSENSE

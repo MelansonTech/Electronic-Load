@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Pin From Net: NetName=V_LD_SENSE_A Pin=R9-2
+Removed Pin From Net: NetName=V_LD_SENSE_B Pin=R22-1
+Removed Pin From Net: NetName=GND Pin=R22-2
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R9
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R22

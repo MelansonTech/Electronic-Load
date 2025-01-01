@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=MOD1-4
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q5 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q6 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R22 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R23 Vishay / Dale CRCW080510K0FKTA

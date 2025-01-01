@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=I_LO_GD Pin=J4-6
+Added Pin To Net: NetName=I_MED_GD Pin=J4-7
+Added Pin To Net: NetName=I_HI_GD Pin=J4-8
+Change Net Name : Old Net Name=I_MED_GD New Net Name=RMT_VSENSE_RLY_COIL_DRV

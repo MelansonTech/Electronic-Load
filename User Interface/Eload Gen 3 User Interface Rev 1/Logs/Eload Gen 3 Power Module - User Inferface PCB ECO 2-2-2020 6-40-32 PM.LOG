@@ -1,0 +1,31 @@
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R13 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R15 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R10 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R14 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component Comment : Designator=D1 Old Comment= LTST-C230KGKT New Comment=LTST-C230KGKT
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=+3.3VDC Pin=D1-2
+Added Pin To Net: NetName=GND Pin=M3-0
+Added Pin To Net: NetName=GND Pin=M4-0
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ3_3 Pin=R14-1
+Added Pin To Net: NetName=NetD1_1 Pin=R14-2
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=R15-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R15-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component D1 LTST-C230KGKT
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component Q3 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component R14 CRCW0805100RJNEAC
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component R15 Vishay CRCW08051K00JNEA

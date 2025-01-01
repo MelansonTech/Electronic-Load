@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetJ2_12 Pin=MOD1-3
+Removed Pin From Net: NetName=CLK Pin=MOD1-5
+Removed Pin From Net: NetName=DAT0 Pin=MOD1-7
+Removed Pin From Net: NetName=NetJ2_18 Pin=MOD1-10
+Added Pin To Net: NetName=GND Pin=MOD1-11
+Change Net Name : Old Net Name=CLK New Net Name=SD CLK
+Change Net Name : Old Net Name=DAT0 New Net Name=SD_MISO
+Change Net Name : Old Net Name=DETECT New Net Name=SD SW_DET
+Change Net Name : Old Net Name=NetJ2_12 New Net Name=SD_MOSI
+Change Net Name : Old Net Name=NetJ2_17 New Net Name=SD_CS
+Change Net Name : Old Net Name=NetJ2_18 New Net Name=SD SW
+Added Pin To Net: NetName=DATA2 Pin=MOD1-1
+Added Net: Name=DATA2

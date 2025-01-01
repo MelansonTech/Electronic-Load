@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=J2-19
+Added Component: Designator=D1(LED,0805)
+Added Component: Designator=Q3(SOT23-3)
+Added Component: Designator=R14(res, 0805, HD)
+Added Component: Designator=R15(res, 0805, HD)
+Added Pin To Net: NetName=+3.3VDC Pin=D1-1
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R14-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R15-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ3_3 Pin=R14-1
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=J2-19
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=R15-1
+Added Net: Name=ON/OFF_INDICATOR
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component D1 LG R971-KN-1
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component Q3 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component R14 Vishay Dale CRCW0805221RFKTA
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component R15 Vishay CRCW08051K00JNEA

@@ -1,0 +1,15 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Eload Gen 3 Power Module.PrjPcb]
+   Generated File[Eload Gen 3 Power Module-RoundHoles-Plated.TXT]
+   Generated File[Eload Gen 3 Power Module-RoundHoles-NonPlated.TXT]
+   Generated File[Eload Gen 3 Power Module-SlotHoles-Plated.TXT]
+   Generated File[Eload Gen 3 Power Module.DRL]
+   Generated File[Eload Gen 3 Power Module.LDP]
+   Generated File[Eload Gen 3 Power Module.DRR]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 11:55:21 AM On 5/2/2020

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=V_LD_SENSE_B Pin=R46-2
+Removed Pin From Net: NetName=V_LD_SENSE_A Pin=R48-2
+Added Pin To Net: NetName=V_LD_SENSE_A Pin=R46-2
+Added Pin To Net: NetName=V_LD_SENSE_B Pin=R48-2

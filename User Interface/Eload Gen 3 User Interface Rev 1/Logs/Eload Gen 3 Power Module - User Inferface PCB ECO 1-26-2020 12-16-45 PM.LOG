@@ -1,0 +1,12 @@
+Added Component: Designator=M1(Standoff,Hex,M3,8mm)
+Added Component: Designator=M2(Standoff,Hex,M3,8mm)
+Added Component: Designator=M3(Standoff,Hex,M3,8mm)
+Added Component: Designator=M4(Standoff,Hex,M3,8mm)
+Added Pin To Net: NetName=GND Pin=M1-0
+Added Pin To Net: NetName=GND Pin=M2-0
+Added Pin To Net: NetName=GND Pin=M3-0
+Added Pin To Net: NetName=GND Pin=M4-0
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M1 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M2 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M3 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component M4 M3 hex Standoff

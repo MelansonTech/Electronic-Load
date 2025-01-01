@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 12:42:15 PM On 4/11/2021
+
+Output: ExportSTEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [Eload Gen 3 Control Module Rev 2.CSPcbDoc]
+   Generated File[Eload Gen 3 Control Module Rev 2.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:42:24 PM On 4/11/2021

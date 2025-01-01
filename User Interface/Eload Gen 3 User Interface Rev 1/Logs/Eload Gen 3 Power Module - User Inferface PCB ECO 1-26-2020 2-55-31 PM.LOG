@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=SD_MOSI Pin=MOD1-3
+Added Pin To Net: NetName=SD CLK Pin=MOD1-5
+Added Pin To Net: NetName=SD_MISO Pin=MOD1-7
+Added Pin To Net: NetName=SD SW Pin=MOD1-10
+Added Pin To Net: NetName=DAT1 Pin=MOD1-8
+Added Net: Name=DAT1

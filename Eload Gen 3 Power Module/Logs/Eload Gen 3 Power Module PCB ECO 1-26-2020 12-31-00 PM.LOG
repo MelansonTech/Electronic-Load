@@ -1,0 +1,105 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=+5VDC Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+5VDC Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=SW2 Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=SW1 Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=CW_LOW Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+3.3VDC Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=ROT_SW Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=CCW_LOW Pin=C9-2
+Removed Pin From Net: NetName=RMTVSENSEN Pin=J2-1
+Removed Pin From Net: NetName=CD/DAT3 Pin=J4-2
+Removed Pin From Net: NetName=+3.3VDC Pin=J4-4
+Removed Pin From Net: NetName=GND Pin=J4-6
+Removed Pin From Net: NetName=DAT0 Pin=J4-7
+Removed Pin From Net: NetName=DETECT Pin=J4-DT
+Removed Pin From Net: NetName=GND Pin=J4-P1
+Removed Pin From Net: NetName=GND Pin=J4-P2
+Removed Pin From Net: NetName=GND Pin=J4-P3
+Removed Pin From Net: NetName=GND Pin=J4-P4
+Removed Pin From Net: NetName=GND Pin=J4-P5
+Removed Pin From Net: NetName=GND Pin=LCD1-1
+Removed Pin From Net: NetName=+5VDC Pin=LCD1-2
+Removed Pin From Net: NetName=SCL Pin=Q3-2
+Removed Pin From Net: NetName=SDA Pin=Q4-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R7-1
+Removed Pin From Net: NetName=SW2 Pin=R7-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R8-1
+Removed Pin From Net: NetName=+5VDC Pin=R9-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R10-1
+Removed Pin From Net: NetName=+3.3VDC Pin=R11-1
+Removed Pin From Net: NetName=SW1 Pin=R11-2
+Removed Pin From Net: NetName=+5VDC Pin=R12-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R13-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R14-2
+Removed Pin From Net: NetName=CW_LOW Pin=R15-2
+Removed Pin From Net: NetName=+3.3VDC Pin=R16-1
+Removed Pin From Net: NetName=+3.3VDC Pin=R17-1
+Removed Pin From Net: NetName=ROT_SW Pin=R18-2
+Removed Pin From Net: NetName=CCW_LOW Pin=R19-2
+Removed Pin From Net: NetName=SW2 Pin=SW1-1
+Removed Pin From Net: NetName=GND Pin=SW1-2
+Removed Pin From Net: NetName=SW1 Pin=SW2-1
+Removed Pin From Net: NetName=GND Pin=SW2-2
+Removed Pin From Net: NetName=GND Pin=SW3-2
+Removed Pin From Net: NetName=GND Pin=SW3-4
+Removed Pin From Net: NetName=GND Pin=SW3-6
+Removed Pin From Net: NetName=GND Pin=SW3-7
+Removed Member From Class: ClassName=PwrRail Member=GND
+Change Component DesignItemId : Designator=R? Old DesignItemId=Res,0805,0.0O,150V New DesignItemId=Res,0805,0.0O,150V
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E New DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Change Component Comment : Designator=R5 Old Comment=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New Comment=CRCW0805100KFKEA
+Change Component Library : Designator=Q5 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=Q6 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=R22 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=R23 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Added Component: Designator=C10(Cap,0805)
+Added Component: Designator=C11(Cap,0805)
+Added Component: Designator=J?(Connector,FlatFlex,20Pin,RA)
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=12VDC Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=12VDC Pin=C11-2
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=DETECT Pin=J?-3
+Added Pin To Net: NetName=CD/DAT3 Pin=J?-4
+Added Pin To Net: NetName=SDA Pin=J?-5
+Added Pin To Net: NetName=SCL Pin=J?-6
+Added Pin To Net: NetName=GND Pin=J?-7
+Added Pin To Net: NetName=CLK Pin=J?-8
+Added Pin To Net: NetName=CMD Pin=J?-9
+Added Pin To Net: NetName=DAT0 Pin=J?-10
+Added Pin To Net: NetName=GND Pin=J?-11
+Added Pin To Net: NetName=GND Pin=J?-12
+Added Pin To Net: NetName=ROT_SW Pin=J?-13
+Added Pin To Net: NetName=CCW_LOW Pin=J?-14
+Added Pin To Net: NetName=CW_LOW Pin=J?-15
+Added Pin To Net: NetName=SW1 Pin=J?-16
+Added Pin To Net: NetName=SW2 Pin=J?-17
+Added Pin To Net: NetName=GND Pin=J?-18
+Added Pin To Net: NetName=+3.3VDC Pin=J?-19
+Added Pin To Net: NetName=+5VDC Pin=J?-20
+Added Pin To Net: NetName=GND Pin=J?-21
+Added Pin To Net: NetName=GND Pin=J?-22
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component C10 08055C104JAT2A
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component C11 08055C104JAT2A
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component J? SFW20R-1STE1LF
+Added Member To Class: ClassName=Low Current Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=Low Volt Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=PwrRail Member=Wire RMTVSENSEN

@@ -1,0 +1,18 @@
+Added Component: Designator=Q5(SOT23-3)
+Added Component: Designator=Q6(SOT23-3)
+Added Component: Designator=R22(res, 0805, HD)
+Added Component: Designator=R23(res, 0805, HD)
+Added Pin To Net: NetName=I_LO_GD Pin=Q5-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=Q5-2
+Added Pin To Net: NetName=NetQ4_3 Pin=Q5-3
+Added Pin To Net: NetName=I_HI_GD Pin=Q6-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Pin To Net: NetName=I_LO_GD Pin=R22-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=R22-2
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=R23-1
+Added Pin To Net: NetName=I_HI_GD Pin=R23-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q5 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q6 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R22 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R23 Vishay / Dale CRCW080510K0FKTA

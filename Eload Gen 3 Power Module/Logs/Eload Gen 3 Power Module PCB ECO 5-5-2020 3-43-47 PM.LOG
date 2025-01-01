@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Low Current Member=NetQ6_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ6_3
+Added Differential Pair: Name=DIFFPAIRISENSE
+Added Member To Class: ClassName=Low Current Member=Wire DIFFPAIRISENSE_N
+Added Member To Class: ClassName=Low Volt Member=Wire DIFFPAIRISENSE_N

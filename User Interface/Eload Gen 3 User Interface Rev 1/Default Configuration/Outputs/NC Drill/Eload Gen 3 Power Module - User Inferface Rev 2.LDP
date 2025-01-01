@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\OneDrive\Shawn\electronic load\Circuit Studio\Gen 3\User Interface\Eload Gen 3 User Interface Rev 1\Eload Gen 3 Power Module - User Inferface Rev 2.CSPcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=eload gen 3 power module - user inferface rev 2-plated.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=eload gen 3 power module - user inferface rev 2-nonplated.txt|LayerPairs=gtl,gbl

@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=High Current Member=NetQ5_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ5_3
+Removed Member From Class: ClassName=High Current Member=NetQ6_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ6_3
+Added Pin To Net: NetName=NetQ6_3 Pin=Q5-3
+Added Pin To Net: NetName=NetQ6_3 Pin=Q7-3
+Added Pin To Net: NetName=NetQ6_3 Pin=R21-1
+Change Net Name : Old Net Name=NetQ6_3 New Net Name=DIFFPAIRISENSE_N
+Added Member To Class: ClassName=High Current Member=Wire DIFFPAIRISENSE_N
+Added Member To Class: ClassName=Low Volt Member=Wire DIFFPAIRISENSE_N

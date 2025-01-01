@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=GND Pin=M1-0
+Added Pin To Net: NetName=GND Pin=M2-0
+Added Pin To Net: NetName=GND Pin=M3-0
+Added Pin To Net: NetName=GND Pin=M4-0
+Added Pin To Net: NetName=GND Pin=M5-0
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=MOD1-28
+Added Net: Name=ON/OFF_INDICATOR
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component J4 SFW20R-1STE1LF
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Member=Component R7 Res1

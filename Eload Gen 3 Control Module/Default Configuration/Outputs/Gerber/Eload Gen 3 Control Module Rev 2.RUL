@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: E:\OneDrive\Shawn\electronic load\Circuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module Rev 2.CSPcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=HVA to HVB|Scope=Board|Minimum=29.53
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=HVA to All|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=HVB to All|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=HVA to 3v3|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=CMHVA to all|Scope=Board|Minimum=98.43
+RuleKind=Clearance|RuleName=CMHVB to all|Scope=Board|Minimum=98.43
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=HVB to 3v3|Scope=Board|Minimum=29.53

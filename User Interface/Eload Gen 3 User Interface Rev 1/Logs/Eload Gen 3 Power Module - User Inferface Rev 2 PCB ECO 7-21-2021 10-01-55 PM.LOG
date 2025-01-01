@@ -1,0 +1,4 @@
+Added Component: Designator=PZT1(Buzzer,PKM13EPYH4000-A0)
+Added Pin To Net: NetName=NetPZT1_1 Pin=PZT1-1
+Added Pin To Net: NetName=+5VDC Pin=PZT1-2
+Added Member To Class: ClassName=Buzzer Member=Component PZT1 PKM13EPYH4000-A0

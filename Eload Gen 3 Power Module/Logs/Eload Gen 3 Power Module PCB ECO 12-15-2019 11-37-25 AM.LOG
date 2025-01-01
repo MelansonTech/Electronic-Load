@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=F1-2
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=F2-2
+Removed Pin From Net: NetName=TEMP SENSE Pin=NTC1-1
+Removed Pin From Net: NetName=12VDC Pin=NTC1-2
+Removed Pin From Net: NetName=TEMP SENSE Pin=R3-1
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Member From Class: ClassName=Eload Power Module - Gen 2 cntrl on side Member=F1
+Removed Member From Class: ClassName=Eload Power Module - Gen 2 cntrl on side Member=F2
+Removed Member From Class: ClassName=Eload Power Module - Gen 2 cntrl on side Member=J4
+Removed Member From Class: ClassName=Eload Power Module - Gen 2 cntrl on side Member=J5
+Removed Member From Class: ClassName=Eload Power Module - Gen 2 cntrl on side Member=R3
+Removed Member From Class: ClassName=Earth Member=EARTH
+Removed Member From Class: ClassName=High Current Member=LD_INPUT_A
+Removed Member From Class: ClassName=LD_INPUT_A Member=LD_INPUT_A
+Removed Member From Class: ClassName=LDAB Input Member=LD_INPUT_A
+Removed Member From Class: ClassName=High Current Member=LD_INPUT_B
+Removed Member From Class: ClassName=LD_INPUT_B Member=LD_INPUT_B
+Removed Member From Class: ClassName=LDAB Input Member=LD_INPUT_B
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF New DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF New DesignItemId=Res,2512,10mO,3.00W,±1%,CRA2512-FZ-R010ELF
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res, 2512, shunt, 30mO,1W, LVM25FVR030E-TR New DesignItemId=Res, 2512, shunt, 30mO,1W, LVM25FVR030E-TR
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=J2-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=J3-1
+Added Pin To Net: NetName=GND Pin=NTC1-1
+Added Pin To Net: NetName=TEMP SENSE Pin=NTC1-2
+Change Class Name : Old Net Name=Eload Power Module - Gen 2 cntrl on side New Net Name=Eload Gen 3 Power Module

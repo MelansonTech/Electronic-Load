@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=VSENSE+ Pin=C23-1
+Removed Pin From Net: NetName=VSENSE- Pin=C23-1
+Removed Pin From Net: NetName=NetC23_2 Pin=C23-2
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R31
+Change Component Designator: OldDesignator=R? NewDesignator=R39
+Added Component: Designator=C23(Cap,0805)
+Added Pin To Net: NetName=VSENSE+ Pin=C23-1
+Added Pin To Net: NetName=VSENSE- Pin=C23-1
+Added Pin To Net: NetName=NetC23_2 Pin=C23-2
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=NetQ1_1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R3 Res1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R4 Res1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R9 Res1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R16 Res1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R20 CRCW0805100RJNEAC
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R21 Vishay Dale CRCW0805221RFKTA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R23 Vishay Dale CRCW0805221RFKTA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R29 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R39 Vishay / Dale CRCW080510K0FKTA

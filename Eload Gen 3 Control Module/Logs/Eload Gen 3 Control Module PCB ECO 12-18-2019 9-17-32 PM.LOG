@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=J6-1
+Removed Pin From Net: NetName=I_ADJ_MAN Pin=J6-4
+Change Component DesignItemId : Designator=J6 Old DesignItemId=Conntector, though hole, JST, 4pin, 2mm,B4B-PH-K-S(LF)(SN) New DesignItemId=Header 1x3,0.1",TH,Generic
+Change Component Footprint: Designator=J6 Old Footprint=CONN, JST, 4 PIN, 2MM SPACING New Footprint=Header,3POS,0.1",RA
+Change Component Comment : Designator=J6 Old Comment=JST B4B-PH-K-S(LF)(SN) New Comment=Generic Header
+Added Component: Designator=R33(res, 0805, HD)
+Added Pin To Net: NetName=I_ADJ_MAN Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-3
+Added Pin To Net: NetName=BOOT_RST Pin=R33-1
+Added Pin To Net: NetName=+3.3V Pin=R33-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C8 08055C104JAT2A
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component U3 TLV70333DBVR

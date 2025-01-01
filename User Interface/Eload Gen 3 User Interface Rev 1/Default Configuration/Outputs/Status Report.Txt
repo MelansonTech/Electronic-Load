@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:05:20 PM On 7/28/2021
+
+Output: ExportSTEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [Eload Gen 3 Power Module - User Inferface Rev 2.CSPcbDoc]
+   Generated File[Eload Gen 3 Power Module - User Inferface Rev 2.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:06:26 PM On 7/28/2021

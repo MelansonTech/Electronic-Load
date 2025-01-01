@@ -1,0 +1,4 @@
+Added Component: Designator=J8(HEADER-1X2,0.1",RA1)
+Added Pin To Net: NetName=SW2 Pin=J8-1
+Added Pin To Net: NetName=SW1 Pin=J8-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J8 Generic Header

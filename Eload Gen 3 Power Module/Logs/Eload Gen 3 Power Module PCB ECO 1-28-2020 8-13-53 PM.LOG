@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=DIFFPAIRISENSE_N Pin=MOD1-4
+Removed Member From Class: ClassName=Low Current Member=NetQ6_2
+Removed Member From Class: ClassName=Low Volt Member=NetQ6_2
+Added Pin To Net: NetName=ISENSE(-) Pin=MOD1-4
+Added Pin To Net: NetName=ISENSE(-) Pin=Q5-2
+Added Pin To Net: NetName=ISENSE(-) Pin=Q6-2
+Added Pin To Net: NetName=ISENSE(-) Pin=R22-2
+Added Pin To Net: NetName=ISENSE(-) Pin=R23-1
+Added Net: Name=ISENSE(-)
+Added Member To Class: ClassName=Low Current Member=Wire ISENSE(-)
+Added Member To Class: ClassName=Low Volt Member=Wire ISENSE(-)

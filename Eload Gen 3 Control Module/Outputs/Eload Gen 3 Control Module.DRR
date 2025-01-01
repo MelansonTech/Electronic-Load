@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Eload Gen 3 Control Module.CSPcbDoc   4/6/2020  7:48:01 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Eload Gen 3 Control Module.TXT
+EIA File   : Eload Gen 3 Control Module.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          176              656.27 mm (25.84 Inch)
+T2        1mm (39.37mil)           Round          42               130.21 mm (5.13 Inch)
+T3        3mm (118.11mil)          Round          2         NPTH   34.44 mm (1.36 Inch)
+---------------------------------------------------------------------------
+Totals                                            220              820.92 mm (32.32 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

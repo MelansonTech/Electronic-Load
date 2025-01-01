@@ -1,0 +1,403 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #E2F2F8;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\CS\Templates\CircuitStudio_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7/9/2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7:23:14 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc" class="file"><acronym title="C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc">C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Errors:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">7</td></tr>
+</table>
+</td>
+</table><a name="IDNWEYLBR03IKGOVAPZ45WK3LOBLMVV2LOZQZELKCURANBAHIBEWDE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Errors</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGD5QUWHBXEGONJKJLRZC5NSUUFJBOLFH4QFX3DDC3FWLR4QS23PE">Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_B')),(InNet('+3.3V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID422RSZ3NJNRPFSJM2AXJOK3EDJ1A420EQP1VZPM3WWLY42WTWURF">Clearance Constraint (Gap=0.127mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFYRTIWOOUC0YBCYKPDVTVROKCNWVMRTU10XLG1GM2ZOZZ0VEGU1J">Clearance Constraint (Gap=2.5mm) (InNet('NetCM2_2')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWVDA0U1YUWYEG4ITJHR2VTM2GFQDDMP0XKRAHLBG2TOV3KIED0Z">Clearance Constraint (Gap=2.5mm) (InNet('NetCM2_4')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLHKFRSUKEUWQKHBKCORTH0CVTBEFPBQ3ZMV1DHC4L1QDGL0UIJJI">Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_A')),(InNet('+3.3V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDB0U0GMC5HYOKALPJFSCZRZ31JTE30WBK3WH3MNRZA15R2AEMK0G">Clearance Constraint (Gap=0.5mm) (InNet('V_LD_SENSE_B')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDL25VVPN4WMS0DRS5PTSQLYAP2PKA2F1P1GNUUEELZ1FQILVWFDHG">Clearance Constraint (Gap=0.5mm) (InNet('V_LD_SENSE_A')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1UVMNLYOB4NLJTWTBCABFD2PPMAZZPB4RUEN2FE2PPFKECH1XS5C">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMBVXLSGM1FLIJOXZSQFVSE54ZBMLVZRGDRGAHHJM4AD1LJOE5P">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5QW1CBSBV2B5MJUKU3BZRAPE2KSWSUEK2ECQK4LXG2GQJAIAW5RM">Clearance Constraint (Gap=1mm) (InNet('V_LD_SENSE_A')),(InNet('V_LD_SENSE_B'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1J3NNVUS1LICPCSJP4CSUCS0HFTPY5EBUM1OK2C0KHUCUTLEGSWG">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4A40SEVHBGWVMZZP43MRIFQBIPBPCEAIV0NGKEJMLTELEQVVVUXL">Width Constraint (Min=0.127mm) (Max=2mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJ1VEVBRW5FP3EIHX4CU0YDXEOCWYMYEIYRSEJZNFKQPSA3MA1JEB">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2UUQKBAGYRHLNT21OLXVEXBEPJM112TFID05ANPBA3QIME4OF1M">Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMV0XVIYFEAEOOLNVSAXHPZPXYOYNIKS51ICNNUISX3AZWK3OO1VE">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4MZSXLWKEYUEGIQQ13LTZAC1EKFHDURHEDB5IOJJOURJHMZX4WTB">Minimum Solder Mask Sliver (Gap=0.025mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0ILLCVE14L03GIYA3C02K2FZCHCJE3CHSBZXRLMASDC5UDBVKKEC">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZFU1JEEERRRDDOAL5EQXZKWT2OSF3CZSJ1DUM2CTYX4F2Q4BNXE">Silk to Silk (Clearance=0.1mm) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0J3INIC32VDTNV4CGCIRZGTLBCD2XYD4GMHNP5G02MM2IHGE0ZRE">Silk primitive without silk layer</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIRXTD2MH5LVUOTV1JKHOZT0JAJHKFPPUUG2HROCOCWSWG1BBQJTC">Unpoured Polygon (Allow unpoured: False)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">7</td>
+</tr>
+</table><br><a name="ID4MZSXLWKEYUEGIQQ13LTZAC1EKFHDURHEDB5IOJJOURJHMZX4WTB"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Minimum Solder Mask Sliver (Gap=0.025mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2740.826mil|Location2.X=2792.637mil|Location1.Y=1426.85mil|Location2.Y=1478.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2740.826mil|Location2.X=2792.637mil|Location1.Y=1426.85mil|Location2.Y=1478.661mil|Absolute=True">Via (36.825mm,11.4mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2749.385mil|Location2.X=2789.385mil|Location1.Y=1392.125mil|Location2.Y=1436.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2749.385mil|Location2.X=2789.385mil|Location1.Y=1392.125mil|Location2.Y=1436.125mil|Absolute=True">Pad Q5-2(36.892mm,10.419mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2947.519mil|Location2.X=2999.33mil|Location1.Y=1426.85mil|Location2.Y=1478.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2947.519mil|Location2.X=2999.33mil|Location1.Y=1426.85mil|Location2.Y=1478.661mil|Absolute=True">Via (42.075mm,11.4mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2966.519mil|Location2.X=3006.519mil|Location1.Y=1392.125mil|Location2.Y=1436.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2966.519mil|Location2.X=3006.519mil|Location1.Y=1392.125mil|Location2.Y=1436.125mil|Absolute=True">Pad Q3-1(42.408mm,10.419mm)  Top Layer</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3795.354mil|Location2.X=3847.165mil|Location1.Y=1469.764mil|Location2.Y=1521.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3795.354mil|Location2.X=3847.165mil|Location1.Y=1469.764mil|Location2.Y=1521.575mil|Absolute=True">Via (63.61mm,12.49mm) Top Layer to Bottom Layer</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3787.26mil|Location2.X=3855.26mil|Location1.Y=1431.669mil|Location2.Y=1479.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3787.26mil|Location2.X=3855.26mil|Location1.Y=1431.669mil|Location2.Y=1479.039mil|Absolute=True">Pad C28-2(63.61mm,11.466mm)  Top Layer</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZFU1JEEERRRDDOAL5EQXZKWT2OSF3CZSJ1DUM2CTYX4F2Q4BNXE"><table>
+<tr>
+<th style="text-align : left" colspan="2" class="rule">Silk to Silk (Clearance=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.85mil|Location2.X=4571.207mil|Location1.Y=2059.881mil|Location2.Y=2224.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.85mil|Location2.X=4571.207mil|Location1.Y=2059.881mil|Location2.Y=2224.192mil|Absolute=True">Text "VUSB" (81.405mm,27.075mm)  Bottom Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3404.468mil|Location2.X=4751.042mil|Location1.Y=2223.366mil|Location2.Y=2231.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3404.468mil|Location2.X=4751.042mil|Location1.Y=2223.366mil|Location2.Y=2231.358mil|Absolute=True">Track (53.125mm,31.075mm)(87.125mm,31.075mm)  Bottom Overlay</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width:50%; text-align:left" class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.85mil|Location2.X=4571.207mil|Location1.Y=2059.881mil|Location2.Y=2224.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.85mil|Location2.X=4571.207mil|Location1.Y=2059.881mil|Location2.Y=2224.192mil|Absolute=True">Text "VUSB" (81.405mm,27.075mm)  Bottom Overlay</acronym></a></td>
+<td style="width:50%; text-align:left" class="column2"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3799.349mil|Location2.X=4604.586mil|Location1.Y=2223.366mil|Location2.Y=2231.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3799.349mil|Location2.X=4604.586mil|Location1.Y=2223.366mil|Location2.Y=2231.358mil|Absolute=True">Track (63.155mm,31.075mm)(83.405mm,31.075mm)  Bottom Overlay</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0J3INIC32VDTNV4CGCIRZGTLBCD2XYD4GMHNP5G02MM2IHGE0ZRE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk primitive without silk layer</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3628.313mil|Location2.X=4555.526mil|Location1.Y=2004.298mil|Location2.Y=2903.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3628.313mil|Location2.X=4555.526mil|Location1.Y=2004.298mil|Location2.Y=2903.181mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (53.125mm,36.825mm)(87.125mm,36.825mm)  Bottom Overlay</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4743.799mil|Location2.X=4778.624mil|Location1.Y=2337.303mil|Location2.Y=2343.798mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\shawn\OneDrive\Shawn\electronic load\Cicuit Studio\Gen 3\Eload Gen 3 Control Module\Eload Gen 3 Control Module.CSPcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4743.799mil|Location2.X=4778.624mil|Location1.Y=2337.303mil|Location2.Y=2343.798mil|Absolute=True">Silk To Board Region Clearance (Out of silkscreen region) : Track (87.125mm,31.075mm)(87.125mm,36.825mm)  Bottom Overlay</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,15 @@
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Added Component: Designator=NT3(0.254mm Net Tie)
+Added Pin To Net: NetName=GND Pin=NT3-1
+Added Pin To Net: NetName=NetNT3_2 Pin=NT3-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Rev 2 Member=Component NT3 Net Tie,0.254mm
+Added Member To Class: ClassName=Low Current Member=Wire NetNT3_2
+Added Member To Class: ClassName=Low Volt Member=Wire NetNT3_2
+Added Member To Class: ClassName=PwrRail Member=Wire NetNT3_2

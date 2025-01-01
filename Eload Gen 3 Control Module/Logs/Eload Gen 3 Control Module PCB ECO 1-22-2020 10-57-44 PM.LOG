@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=GND Pin=C44-1
+Removed Pin From Net: NetName=GND Pin=C45-1
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C44
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C45
+Change Component DesignItemId : Designator=R41 Old DesignItemId=Res,1210,10.0 O,±0.1%,200V,RP73D2B10RBTG New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R42 Old DesignItemId=Res,1210,10.0 O,±0.1%,200V,RP73D2B10RBTG New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component Footprint: Designator=R41 Old Footprint=Res,1210 New Footprint=res, 0805, HD
+Change Component Footprint: Designator=R42 Old Footprint=Res,1210 New Footprint=res, 0805, HD
+Change Component Comment : Designator=R41 Old Comment=RP73D2B10RBTG New Comment=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component Comment : Designator=R42 Old Comment=RP73D2B10RBTG New Comment=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Added Component: Designator=J1(Header,8Pin,SingleRow, RA,0.1")
+Added Component: Designator=J2(Header,8Pin,SingleRow, RA,0.1")
+Added Component: Designator=J3(Header,8Pin,SingleRow, RA,0.1")
+Added Component: Designator=J4(Header,8Pin,SingleRow, RA,0.1")
+Added Component: Designator=J?(Header,3POS,0.1",RA)
+Added Pin To Net: NetName=SW1 Pin=J1-1
+Added Pin To Net: NetName=SW2 Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=SCL Pin=J1-4
+Added Pin To Net: NetName=SDA Pin=J1-5
+Added Pin To Net: NetName=ROT_SW_LD1 Pin=J2-1
+Added Pin To Net: NetName=CW_LOW_LD1 Pin=J2-2
+Added Pin To Net: NetName=CCW_LOW_LD1 Pin=J2-3
+Added Pin To Net: NetName=I_ADJ_MAN Pin=J2-4
+Added Pin To Net: NetName=+3.3V Pin=J2-5
+Added Pin To Net: NetName=+5V Pin=J2-6
+Added Pin To Net: NetName=+12 Pin=J2-7
+Added Pin To Net: NetName=GND Pin=J2-8
+Added Pin To Net: NetName=V_LD_SENSE_A Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=V_LD_SENSE_B Pin=J3-3
+Added Pin To Net: NetName=ISENSE(-) Pin=J3-4
+Added Pin To Net: NetName=ISENSE(+) Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J3-6
+Added Pin To Net: NetName=I_HI_GD Pin=J3-7
+Added Pin To Net: NetName=I_LO_GD Pin=J3-8
+Added Pin To Net: NetName=GATE_DRV_A Pin=J4-1
+Added Pin To Net: NetName=GATE_DRV_B Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=TEMP SENSE Pin=J4-5
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=R41-1
+Added Pin To Net: NetName=GND Pin=R42-1
+Added Pin To Net: NetName=RMT_VSENSE_RLY_COIL_DRV Pin=J4-7
+Added Net: Name=RMT_VSENSE_RLY_COIL_DRV
+Added Pin To Net: NetName=SD_CS Pin=J?-2
+Added Pin To Net: NetName=SD_CS Pin=U8-29
+Added Net: Name=SD_CS
+Added Pin To Net: NetName=SD_MISO Pin=J1-7
+Added Pin To Net: NetName=SD_MISO Pin=U8-40
+Added Net: Name=SD_MISO
+Added Pin To Net: NetName=SD_MOSI Pin=J1-6
+Added Pin To Net: NetName=SD_MOSI Pin=U8-39
+Added Net: Name=SD_MOSI
+Added Pin To Net: NetName=SD CLK Pin=J1-8
+Added Pin To Net: NetName=SD CLK Pin=U8-38
+Added Net: Name=SD CLK
+Added Pin To Net: NetName=SD SW_DET Pin=J?-3
+Added Pin To Net: NetName=SD SW_DET Pin=U8-46
+Added Net: Name=SD SW_DET
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J1 HEADER,0.1",8Pin,SinlgeRow
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J2 HEADER,0.1",8Pin,SinlgeRow
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J3 HEADER,0.1",8Pin,SinlgeRow
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J4 HEADER,0.1",8Pin,SinlgeRow
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J? Generic Header

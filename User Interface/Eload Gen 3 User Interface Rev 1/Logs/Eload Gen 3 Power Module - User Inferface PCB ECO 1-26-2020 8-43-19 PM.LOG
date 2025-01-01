@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CCW_LOW Pin=J2-6
+Removed Pin From Net: NetName=CW_LOW Pin=J2-7
+Added Pin To Net: NetName=CW_LOW Pin=J2-6
+Added Pin To Net: NetName=CCW_LOW Pin=J2-7

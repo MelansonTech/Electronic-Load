@@ -1,0 +1,7 @@
+Added Component: Designator=J?(HEADER-1X2,0.1")
+Added Component: Designator=J?(HEADER-1X2,0.1")
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=SW1 Pin=J?-2
+Added Pin To Net: NetName=SW2 Pin=J?-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component J? Generic Header

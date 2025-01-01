@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=C44 Old DesignItemId=Cap,1206,10nF,500V,10%,885342208009 New DesignItemId=Cap,1210,100nF,500V,10%,X7R,C1210C104KCRACAUTO
+Change Component DesignItemId : Designator=C45 Old DesignItemId=Cap,1206,10nF,500V,10%,885342208009 New DesignItemId=Cap,1210,100nF,500V,10%,X7R,C1210C104KCRACAUTO
+Change Component Footprint: Designator=C44 Old Footprint=Cap, 1206 New Footprint=Cap,1210
+Change Component Footprint: Designator=C45 Old Footprint=Cap, 1206 New Footprint=Cap,1210
+Change Component Comment : Designator=C44 Old Comment=885342208009 New Comment=Cap
+Change Component Comment : Designator=C45 Old Comment=885342208009 New Comment=Cap
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C23 Cap
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C44 Cap
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C45 Cap

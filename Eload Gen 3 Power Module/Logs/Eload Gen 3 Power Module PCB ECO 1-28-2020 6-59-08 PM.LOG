@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=GND Pin=J6-3
+Change Component Library : Designator=Q7 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=Q8 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Change Component Library : Designator=Q9 Old Library=Master Oct28_2018.SchLib New Library=Master JULY2019.SchLib
+Added Component: Designator=Q?(SOT23-3)
+Added Component: Designator=R?(res, 0805, HD)
+Added Pin To Net: NetName=GND Pin=Q?-2
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=R?-1
+Added Pin To Net: NetName=NetJ6_3 Pin=J6-3
+Added Pin To Net: NetName=NetJ6_3 Pin=Q?-3
+Added Net: Name=NetJ6_3
+Added Pin To Net: NetName=NetQ?_1 Pin=Q?-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R?-2
+Added Net: Name=NetQ?_1
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q? SMBT2222A
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R? Vishay Dale CRCW0805221RFKTA

@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=GND Pin=MOD1-11
+Change Net Name : Old Net Name=DETECT New Net Name=SD SW_DET
+Change Net Name : Old Net Name=NetJ2_17 New Net Name=SD_CS
+Added Pin To Net: NetName=DATA2 Pin=MOD1-1
+Added Net: Name=DATA2
+Added Pin To Net: NetName=SD_MISO Pin=J2-11
+Added Net: Name=SD_MISO
+Added Pin To Net: NetName=SD_MOSI Pin=J2-12
+Added Net: Name=SD_MOSI
+Added Pin To Net: NetName=SD CLK Pin=J2-13
+Added Net: Name=SD CLK
+Added Pin To Net: NetName=SD SW Pin=J2-18
+Added Net: Name=SD SW

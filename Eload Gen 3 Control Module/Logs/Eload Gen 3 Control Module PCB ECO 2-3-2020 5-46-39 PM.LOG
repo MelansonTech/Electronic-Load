@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,7.5kO,0.5%,±50ppm/°C,RT0805DRE077K5L New DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V
+Change Component DesignItemId : Designator=R16 Old DesignItemId=Res,0805,7.5kO,0.5%,±50ppm/°C,RT0805DRE077K5L New DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V
+Change Component Comment : Designator=R4 Old Comment=RT0805DRE077K5L New Comment=ERA-6AEB472V
+Change Component Comment : Designator=R16 Old Comment=RT0805DRE077K5L New Comment=ERA-6AEB472V
+Change Component Description : Designator=R4 Old Description=RES SMD 7.5K OHM 0.5% 1/8W 0805 New Description=RES 4.7K OHM 0.1% 1/8W 0805
+Change Component Description : Designator=R16 Old Description=RES SMD 7.5K OHM 0.5% 1/8W 0805 New Description=RES 4.7K OHM 0.1% 1/8W 0805

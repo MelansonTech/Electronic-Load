@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SW1 Pin=U8-36
+Added Net: Name=SW1
+Added Pin To Net: NetName=SW2 Pin=U8-37
+Added Net: Name=SW2

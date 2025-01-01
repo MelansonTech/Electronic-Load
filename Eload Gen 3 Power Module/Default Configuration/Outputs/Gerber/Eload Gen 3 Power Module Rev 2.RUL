@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: E:\OneDrive\Shawn\electronic load\Circuit Studio\Gen 3\Eload Gen 3 Power Module\Eload Gen 3 Power Module Rev 2.CSPcbDoc
+RuleKind=Clearance|RuleName=Earth to Inputs|Scope=Board|Minimum=118.11
+RuleKind=Clearance|RuleName=Earth to LV|Scope=Board|Minimum=118.11
+RuleKind=Clearance|RuleName=Earth to HV|Scope=Board|Minimum=118.11
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=HV_INAB to LV|Scope=Board|Minimum=29.53
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=HV to LV|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=HV_INA to INB|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=HV_INAB to HV|Scope=Board|Minimum=29.53
+RuleKind=Clearance|RuleName=All to all_1|Scope=Board|Minimum=10.00

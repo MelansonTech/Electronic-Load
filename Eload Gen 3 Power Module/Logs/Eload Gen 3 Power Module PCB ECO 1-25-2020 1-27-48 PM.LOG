@@ -1,0 +1,351 @@
+Removed Member From Class: ClassName=PwrRail Member=12VDC
+Removed Member From Class: ClassName=High Current Member=DIFFPAIRV_LD_SENSE_N
+Removed Member From Class: ClassName=High Current Member=DIFFPAIRV_LD_SENSE_P
+Removed Member From Class: ClassName=High Current Member=FET_A_DRAIN
+Removed Member From Class: ClassName=High Volt Member=FET_A_DRAIN
+Removed Member From Class: ClassName=High Current Member=FET_B_DRAIN
+Removed Member From Class: ClassName=High Volt Member=FET_B_DRAIN
+Removed Member From Class: ClassName=Low Current Member=GATE_DRV_A
+Removed Member From Class: ClassName=Low Volt Member=GATE_DRV_A
+Removed Member From Class: ClassName=Low Current Member=GATE_DRV_B
+Removed Member From Class: ClassName=Low Volt Member=GATE_DRV_B
+Removed Member From Class: ClassName=High Current Member=GND
+Removed Member From Class: ClassName=Low Current Member=GND
+Removed Member From Class: ClassName=Low Volt Member=GND
+Removed Member From Class: ClassName=Low Current Member=I_MED_GD
+Removed Member From Class: ClassName=Low Volt Member=I_MED_GD
+Removed Member From Class: ClassName=High Current Member=NetQ1_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ1_3
+Removed Member From Class: ClassName=High Current Member=NetQ2_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ2_3
+Removed Member From Class: ClassName=High Current Member=NetQ3_3
+Removed Member From Class: ClassName=Low Volt Member=NetQ3_3
+Removed Member From Class: ClassName=Low Current Member=SCL
+Removed Member From Class: ClassName=Low Volt Member=SCL
+Removed Member From Class: ClassName=Low Current Member=SDA
+Removed Member From Class: ClassName=Low Volt Member=SDA
+Added Component: Designator=C1(Cap,0805)
+Added Component: Designator=C2(Cap,0805)
+Added Component: Designator=C3(CAP, 0805, HD)
+Added Component: Designator=C4(CAP, 0805, HD)
+Added Component: Designator=C5(CAP, 0805, HD)
+Added Component: Designator=C6(CAP, 0805, HD)
+Added Component: Designator=C7(Cap,0805)
+Added Component: Designator=C8(CAP, 0805, HD)
+Added Component: Designator=C9(CAP, 0805, HD)
+Added Component: Designator=D1(SOD123)
+Added Component: Designator=D2(SOT23-3)
+Added Component: Designator=D3(SOD123)
+Added Component: Designator=J1(Keystone 8197)
+Added Component: Designator=J2(TERM BLOCK 2POS SIDE ENTRY 5MM)
+Added Component: Designator=J3(Keystone 8197)
+Added Component: Designator=J4(Conn,SD micro,503182-1852)
+Added Component: Designator=J5(TERM BLOCK 2POS SIDE ENTRY 5MM)
+Added Component: Designator=J6(Connector,TE,3-Pin,Male,Vert,2-644861-3)
+Added Component: Designator=J7(Connector,Barrel,2.1mm,5.5mm,DC power Jack)
+Added Component: Designator=LCD1(LCD Module 16x2 - IIC MOD)
+Added Component: Designator=M1(Standoff,Hex,M3,8mm)
+Added Component: Designator=M2(Standoff,Hex,M3,8mm)
+Added Component: Designator=M3(Standoff,Hex,M3,8mm)
+Added Component: Designator=M4(Standoff,Hex,M3,8mm)
+Added Component: Designator=M5(Standoff,Hex,M3,8mm)
+Added Component: Designator=MOD1(Mod,ELoad Gen 3 Rev 1 Support)
+Added Component: Designator=NTC1(NTC,TH,2.54mm Lead Spacing,NTCLE100E3103JT2)
+Added Component: Designator=PM1(Mod,Single TO-247-RA Horizontal CPU Cooler)
+Added Component: Designator=Q1(DPAK,3-Leads)
+Added Component: Designator=Q2(SOT23-3)
+Added Component: Designator=Q3(SOT23-3)
+Added Component: Designator=Q4(SOT23-3)
+Added Component: Designator=Q5(SOT23-3)
+Added Component: Designator=Q6(SOT23-3)
+Added Component: Designator=Q7(DPAK,3-Leads)
+Added Component: Designator=Q8(DPAK,3-Leads)
+Added Component: Designator=Q9(DPAK,3-Leads)
+Added Component: Designator=R1(res, 0805, HD)
+Added Component: Designator=R2(res, 0805, HD)
+Added Component: Designator=R3(res, 0805, HD)
+Added Component: Designator=R4(res, 0805, HD)
+Added Component: Designator=R5(res, 0805, HD)
+Added Component: Designator=R6(res, 0805, HD)
+Added Component: Designator=R7(res, 0805, HD)
+Added Component: Designator=R8(res, 0805, HD)
+Added Component: Designator=R9(res, 0805, HD)
+Added Component: Designator=R10(res, 0805, HD)
+Added Component: Designator=R11(res, 0805, HD)
+Added Component: Designator=R12(res, 0805, HD)
+Added Component: Designator=R13(res, 0805, HD)
+Added Component: Designator=R14(res, 0805, HD)
+Added Component: Designator=R15(res, 0805, HD)
+Added Component: Designator=R16(res, 0805, HD)
+Added Component: Designator=R17(res, 0805, HD)
+Added Component: Designator=R18(res, 0805, HD)
+Added Component: Designator=R19(res, 0805, HD)
+Added Component: Designator=R20(Res,2827,4W)
+Added Component: Designator=R21(Res,1206)
+Added Component: Designator=R22(res, 0805, HD)
+Added Component: Designator=R23(res, 0805, HD)
+Added Component: Designator=Rly1(Relay,SMD,Gull Wing,DPDT (2 Form C),EE2-5NU)
+Added Component: Designator=SW1(PTS636 SP43 LFS)
+Added Component: Designator=SW2(PTS636 SP43 LFS)
+Added Component: Designator=SW3(Rotary encoder)
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=D3-1
+Added Pin To Net: NetName=12VDC Pin=J5-2
+Added Pin To Net: NetName=12VDC Pin=J6-1
+Added Pin To Net: NetName=12VDC Pin=J7-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=MOD1-1
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=MOD1-3
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=MOD1-4
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=MOD1-5
+Added Pin To Net: NetName=TEMP SENSE Pin=MOD1-7
+Added Pin To Net: NetName=I_LO_GD Pin=MOD1-14
+Added Pin To Net: NetName=I_HI_GD Pin=MOD1-16
+Added Pin To Net: NetName=SCL Pin=MOD1-20
+Added Pin To Net: NetName=SDA Pin=MOD1-21
+Added Pin To Net: NetName=TEMP SENSE Pin=NTC1-2
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=PM1-3
+Added Pin To Net: NetName=SCL Pin=Q3-2
+Added Pin To Net: NetName=SDA Pin=Q4-2
+Added Pin To Net: NetName=I_LO_GD Pin=Q5-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=Q5-2
+Added Pin To Net: NetName=I_HI_GD Pin=Q6-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=Q6-2
+Added Pin To Net: NetName=I_LO_GD Pin=Q7-1
+Added Pin To Net: NetName=I_HI_GD Pin=Q8-1
+Added Pin To Net: NetName=I_HI_GD Pin=Q9-1
+Added Pin To Net: NetName=12VDC Pin=R6-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=R20-2
+Added Pin To Net: NetName=DIFFPAIRISENSE_P Pin=R21-2
+Added Pin To Net: NetName=I_LO_GD Pin=R22-1
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=R22-2
+Added Pin To Net: NetName=DIFFPAIRISENSE_N Pin=R23-1
+Added Pin To Net: NetName=I_HI_GD Pin=R23-2
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=Rly1-4
+Added Pin To Net: NetName=DIFFPAIRV_LD_SENSE_P Pin=Rly1-7
+Added Pin To Net: NetName=+3.3VDC Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC Pin=J4-4
+Added Pin To Net: NetName=+3.3VDC Pin=R7-1
+Added Pin To Net: NetName=+3.3VDC Pin=R8-1
+Added Pin To Net: NetName=+3.3VDC Pin=R10-1
+Added Pin To Net: NetName=+3.3VDC Pin=R11-1
+Added Pin To Net: NetName=+3.3VDC Pin=R13-2
+Added Pin To Net: NetName=+3.3VDC Pin=R14-2
+Added Pin To Net: NetName=+3.3VDC Pin=R16-1
+Added Pin To Net: NetName=+3.3VDC Pin=R17-1
+Added Net: Name=+3.3VDC
+Added Pin To Net: NetName=+5VDC Pin=C2-2
+Added Pin To Net: NetName=+5VDC Pin=C3-2
+Added Pin To Net: NetName=+5VDC Pin=LCD1-2
+Added Pin To Net: NetName=+5VDC Pin=R9-2
+Added Pin To Net: NetName=+5VDC Pin=R12-2
+Added Net: Name=+5VDC
+Added Net: Name=5VDC
+Added Pin To Net: NetName=CCW_LOW Pin=C9-2
+Added Pin To Net: NetName=CCW_LOW Pin=R19-2
+Added Net: Name=CCW_LOW
+Added Pin To Net: NetName=CD/DAT3 Pin=J4-2
+Added Pin To Net: NetName=CD/DAT3 Pin=MOD1-9
+Added Net: Name=CD/DAT3
+Added Net: Name=CLK
+Added Pin To Net: NetName=CMD Pin=MOD1-22
+Added Net: Name=CMD
+Added Pin To Net: NetName=CW_LOW Pin=C6-2
+Added Pin To Net: NetName=CW_LOW Pin=R15-2
+Added Net: Name=CW_LOW
+Added Pin To Net: NetName=DAT0 Pin=J4-7
+Added Pin To Net: NetName=DAT0 Pin=MOD1-23
+Added Net: Name=DAT0
+Added Pin To Net: NetName=DATA2 Pin=J4-1
+Added Net: Name=DATA2
+Added Pin To Net: NetName=DETECT Pin=J4-DT
+Added Pin To Net: NetName=DETECT Pin=MOD1-8
+Added Net: Name=DETECT
+Added Pin To Net: NetName=GATE_DRV Pin=MOD1-11
+Added Pin To Net: NetName=GATE_DRV Pin=MOD1-12
+Added Pin To Net: NetName=GATE_DRV Pin=PM1-1
+Added Net: Name=GATE_DRV
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=Q1-1
+Added Pin To Net: NetName=NetD1_2 Pin=R5-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-2
+Added Pin To Net: NetName=NetD2_1 Pin=Q2-3
+Added Pin To Net: NetName=NetD2_1 Pin=Rly1-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD2_3 Pin=D2-3
+Added Pin To Net: NetName=NetD2_3 Pin=R6-2
+Added Pin To Net: NetName=NetD2_3 Pin=Rly1-1
+Added Net: Name=NetD2_3
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=Q1-2
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R4-2
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R8-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R10-2
+Added Net: Name=NetQ4_1
+Added Pin To Net: NetName=NetQ5_3 Pin=Q5-3
+Added Pin To Net: NetName=NetQ5_3 Pin=Q7-3
+Added Pin To Net: NetName=NetQ5_3 Pin=R21-1
+Added Net: Name=NetQ5_3
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Pin To Net: NetName=NetQ6_3 Pin=Q8-3
+Added Pin To Net: NetName=NetQ6_3 Pin=Q9-3
+Added Pin To Net: NetName=NetQ6_3 Pin=R20-1
+Added Net: Name=NetQ6_3
+Added Pin To Net: NetName=PWR FET DRAIN Pin=PM1-2
+Added Net: Name=PWR FET DRAIN
+Added Pin To Net: NetName=RMT_VSENSE_RLY_COIL_DRV Pin=MOD1-15
+Added Pin To Net: NetName=RMT_VSENSE_RLY_COIL_DRV Pin=R2-2
+Added Net: Name=RMT_VSENSE_RLY_COIL_DRV
+Added Pin To Net: NetName=RMT V_DET Pin=C1-2
+Added Pin To Net: NetName=RMT V_DET Pin=MOD1-13
+Added Pin To Net: NetName=RMT V_DET Pin=R1-1
+Added Pin To Net: NetName=RMT V_DET Pin=R3-2
+Added Net: Name=RMT V_DET
+Added Pin To Net: NetName=RMTVSENSEN Pin=C1-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C2-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C4-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C5-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C6-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C7-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C8-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=C9-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=D3-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=J2-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-6
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-P1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-P2
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-P3
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-P4
+Added Pin To Net: NetName=RMTVSENSEN Pin=J4-P5
+Added Pin To Net: NetName=RMTVSENSEN Pin=J5-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=J6-3
+Added Pin To Net: NetName=RMTVSENSEN Pin=J7-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=J7-3
+Added Pin To Net: NetName=RMTVSENSEN Pin=LCD1-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=MOD1-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=MOD1-6
+Added Pin To Net: NetName=RMTVSENSEN Pin=MOD1-10
+Added Pin To Net: NetName=RMTVSENSEN Pin=MOD1-19
+Added Pin To Net: NetName=RMTVSENSEN Pin=NTC1-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=Q2-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=Q7-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=Q8-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=Q9-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=R3-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=R4-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=R5-1
+Added Pin To Net: NetName=RMTVSENSEN Pin=Rly1-3
+Added Pin To Net: NetName=RMTVSENSEN Pin=Rly1-5
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW1-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW2-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW3-2
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW3-4
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW3-6
+Added Pin To Net: NetName=RMTVSENSEN Pin=SW3-7
+Added Net: Name=RMTVSENSEN
+Added Pin To Net: NetName=RMTVSENSEP Pin=J2-2
+Added Pin To Net: NetName=RMTVSENSEP Pin=R1-2
+Added Pin To Net: NetName=RMTVSENSEP Pin=Rly1-6
+Added Net: Name=RMTVSENSEP
+Added Pin To Net: NetName=ROT_SW Pin=C8-2
+Added Pin To Net: NetName=ROT_SW Pin=R18-2
+Added Net: Name=ROT_SW
+Added Pin To Net: NetName=ROT SW A Pin=R14-1
+Added Pin To Net: NetName=ROT SW A Pin=R15-1
+Added Pin To Net: NetName=ROT SW A Pin=SW3-5
+Added Net: Name=ROT SW A
+Added Pin To Net: NetName=ROT SW B Pin=R16-2
+Added Pin To Net: NetName=ROT SW B Pin=R19-1
+Added Pin To Net: NetName=ROT SW B Pin=SW3-3
+Added Net: Name=ROT SW B
+Added Pin To Net: NetName=ROT SW PB1 Pin=R13-1
+Added Pin To Net: NetName=ROT SW PB1 Pin=R18-1
+Added Pin To Net: NetName=ROT SW PB1 Pin=SW3-1
+Added Net: Name=ROT SW PB1
+Added Pin To Net: NetName=SCL_5V Pin=LCD1-4
+Added Pin To Net: NetName=SCL_5V Pin=Q3-3
+Added Pin To Net: NetName=SCL_5V Pin=R9-1
+Added Net: Name=SCL_5V
+Added Pin To Net: NetName=SDA_5V Pin=LCD1-3
+Added Pin To Net: NetName=SDA_5V Pin=Q4-3
+Added Pin To Net: NetName=SDA_5V Pin=R12-1
+Added Net: Name=SDA_5V
+Added Pin To Net: NetName=SW1 Pin=C5-2
+Added Pin To Net: NetName=SW1 Pin=MOD1-17
+Added Pin To Net: NetName=SW1 Pin=R11-2
+Added Pin To Net: NetName=SW1 Pin=SW2-1
+Added Net: Name=SW1
+Added Pin To Net: NetName=SW2 Pin=C4-2
+Added Pin To Net: NetName=SW2 Pin=MOD1-18
+Added Pin To Net: NetName=SW2 Pin=R7-2
+Added Pin To Net: NetName=SW2 Pin=SW1-1
+Added Net: Name=SW2
+Added Pin To Net: NetName=SWITCH Pin=J4-SW
+Added Pin To Net: NetName=SWITCH Pin=R17-2
+Added Net: Name=SWITCH
+Added Pin To Net: NetName=V_LD Pin=D1-1
+Added Pin To Net: NetName=V_LD Pin=Q1-3
+Added Pin To Net: NetName=V_LD Pin=Rly1-8
+Added Net: Name=V_LD
+Added Class: Name=Eload Gen 3 Power Module - Input
+Added Class: Name=Eload Gen 3 Power Module - User Inferface
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component D3 MMSZ4705T1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component J5 TE Connectivity 282836-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component J6 2-644861-3
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component J7 PJ-002A
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component M1 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component M2 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component M3 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component M4 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component M5 M3 hex Standoff
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component MOD1 Support PCBA
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component NTC1 NTCLE100E3103JT2
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component PM1 Diode
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q5 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q6 2N7002ET1G
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q7 Infineon IRFR8314TRPBF
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q8 Infineon IRFR8314TRPBF
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component Q9 Infineon IRFR8314TRPBF
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R20 CSSH2728FT10L0
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R21 KRL1632E-M-R220-F-T5
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R22 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Power Module Member=Component R23 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Low Current Member=Wire DIFFPAIRV_LD_SENSE_N
+Added Member To Class: ClassName=Low Volt Member=Wire DIFFPAIRV_LD_SENSE_N
+Added Member To Class: ClassName=PwrRail Member=Wire DIFFPAIRV_LD_SENSE_N
+Added Member To Class: ClassName=High Volt Member=Wire DIFFPAIRV_LD_SENSE_P
+Added Member To Class: ClassName=Low Current Member=Wire DIFFPAIRV_LD_SENSE_P
+Added Member To Class: ClassName=Low Current Member=Wire GATE_DRV
+Added Member To Class: ClassName=Low Volt Member=Wire GATE_DRV
+Added Member To Class: ClassName=High Current Member=Wire NetQ5_3
+Added Member To Class: ClassName=Low Volt Member=Wire NetQ5_3
+Added Member To Class: ClassName=High Current Member=Wire NetQ6_3
+Added Member To Class: ClassName=Low Volt Member=Wire NetQ6_3
+Added Member To Class: ClassName=High Current Member=Wire PWR FET DRAIN
+Added Member To Class: ClassName=High Volt Member=Wire PWR FET DRAIN
+Added Member To Class: ClassName=High Current Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=Low Current Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=Low Volt Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=PwrRail Member=Wire RMTVSENSEN
+Added Member To Class: ClassName=Low Current Member=Wire RMTVSENSEP
+Added Member To Class: ClassName=Low Volt Member=Wire RMTVSENSEP
+Added Member To Class: ClassName=PwrRail Member=Wire RMTVSENSEP

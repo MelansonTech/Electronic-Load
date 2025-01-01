@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Low Current Member=NetC10_2
+Removed Member From Class: ClassName=Low Volt Member=NetC10_2
+Added Pin To Net: NetName=NetC10_2 Pin=D4-1
+Added Member To Class: ClassName=Low Current Member=Wire 12VDC
+Added Member To Class: ClassName=Low Volt Member=Wire 12VDC

@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=RMTVSENSE_N Pin=R7-1
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Member From Class: ClassName=Eload Gen 3 Power Module - Input Member=R7
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E New DesignItemId=Res,0805,1MegO,5%,200ppm,0805W8F1005T5E
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F New DesignItemId=Res,0805,47.5KO,1%,100ppm,RK73H2ATTD4752F
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0 New DesignItemId=Res,2827,shunt,10mO,1%,15ppm,CSSH2728FT10L0
+Change Component Comment : Designator=Q7 Old Comment= IRLR8726TRPBF New Comment=IRLR8726TRPBF
+Change Component Comment : Designator=Q8 Old Comment= IRLR8726TRPBF New Comment=IRLR8726TRPBF
+Change Component Comment : Designator=Q9 Old Comment= IRLR8726TRPBF New Comment=IRLR8726TRPBF
+Added Component: Designator=NT1(0.254mm Net Tie)
+Added Pin To Net: NetName=GND Pin=M1-0
+Added Pin To Net: NetName=GND Pin=M2-0
+Added Pin To Net: NetName=GND Pin=M3-0
+Added Pin To Net: NetName=GND Pin=M4-0
+Added Pin To Net: NetName=GND Pin=M5-0
+Added Pin To Net: NetName=GND Pin=NT1-1
+Added Pin To Net: NetName=RMTVSENSE_N Pin=NT1-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module - Input Member=Component NT1 Net Tie,0.254mm
+Added Member To Class: ClassName=Low Current Member=Wire NetQ3_1
+Added Member To Class: ClassName=Low Volt Member=Wire NetQ3_1
+Added Member To Class: ClassName=PwrRail Member=Wire NetQ3_1

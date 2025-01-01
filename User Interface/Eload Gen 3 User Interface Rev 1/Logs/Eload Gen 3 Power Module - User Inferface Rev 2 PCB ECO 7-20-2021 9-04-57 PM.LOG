@@ -1,0 +1,70 @@
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R13 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R15 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R18 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R22 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R10 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R16 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R14 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component DesignItemId : Designator=R17 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component DesignItemId : Designator=R19 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component DesignItemId : Designator=R21 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Added Component: Designator=C10(Cap,0805)
+Added Component: Designator=C11(Cap,0805)
+Added Component: Designator=Q7(SOT23-3)
+Added Component: Designator=Q8(SOT23-3)
+Added Component: Designator=Q9(SOT23-3)
+Added Component: Designator=R23(res, 0805, HD)
+Added Component: Designator=R24(res, 0805, HD)
+Added Component: Designator=R25(res, 0805, HD)
+Added Component: Designator=R26(res, 0805, HD)
+Added Component: Designator=R27(res, 0805, HD)
+Added Component: Designator=R28(res, 0805, HD)
+Added Component: Designator=U2(SOT23-5)
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=+5VDC Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=Q7-2
+Added Pin To Net: NetName=GND Pin=Q8-2
+Added Pin To Net: NetName=GND Pin=Q9-2
+Added Pin To Net: NetName=+5VDC Pin=R25-1
+Added Pin To Net: NetName=GND Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=+5VDC Pin=U2-5
+Added Pin To Net: NetName=BUZZER O\N\/OFF CONTROL Pin=Q8-1
+Added Pin To Net: NetName=BUZZER O\N\/OFF CONTROL Pin=Q9-1
+Added Pin To Net: NetName=BUZZER O\N\/OFF CONTROL Pin=R28-1
+Added Pin To Net: NetName=BUZZER O\N\/OFF CONTROL Pin=U1-9
+Added Net: Name=BUZZER O\N\/OFF CONTROL
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=Q8-3
+Added Pin To Net: NetName=NetC11_1 Pin=R23-2
+Added Pin To Net: NetName=NetC11_1 Pin=R24-2
+Added Pin To Net: NetName=NetC11_1 Pin=U2-2
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetPZT1_1 Pin=Q7-3
+Added Pin To Net: NetName=NetPZT1_1 Pin=R25-2
+Added Net: Name=NetPZT1_1
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=Q9-3
+Added Pin To Net: NetName=NetQ7_1 Pin=R26-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R27-1
+Added Net: Name=NetQ7_1
+Added Pin To Net: NetName=NetR23_1 Pin=R23-1
+Added Pin To Net: NetName=NetR23_1 Pin=R24-1
+Added Pin To Net: NetName=NetR23_1 Pin=R26-2
+Added Pin To Net: NetName=NetR23_1 Pin=U2-4
+Added Net: Name=NetR23_1
+Added Class: Name=Buzzer

@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=SW1Ext NewDesignator=J1
+Change Component Designator: OldDesignator=SW2Ext NewDesignator=J3
+Added Component: Designator=R15(res, 0805, HD)
+Added Pin To Net: NetName=ON/OFF_INDICATOR Pin=R15-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R15-2
+Added Member To Class: ClassName=Eload Gen 3 Power Module - User Inferface Member=Component R15 Vishay CRCW08051K00JNEA

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=3V Pin=C32-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C22 08055C104JAT2A
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C23 Cap
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C42 Cap
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component C43 08055C104JAT2A
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component D4 Diode
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component D6 Diode
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R22 TNPV12061M00BXEN
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R24 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R25 TNPV12061M00BXEN
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R26 Vishay CRCW08051K00JNEA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component U6 Opamp,SOT5, 8Mhz, Rail to Rail, TSV911ILT

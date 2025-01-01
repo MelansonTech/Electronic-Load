@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DIFFPAIRV_LD_SENSE_N Pin=R3-1
+Added Component: Designator=NT3(0.254mm Net Tie)
+Added Pin To Net: NetName=NetNT3_2 Pin=R3-1
+Added Net: Name=NetNT3_2

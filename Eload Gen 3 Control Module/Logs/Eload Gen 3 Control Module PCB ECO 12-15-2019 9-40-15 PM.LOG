@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=C43-1
+Removed Pin From Net: NetName=+3.3V Pin=C43-2
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C43

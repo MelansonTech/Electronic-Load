@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=D5-1
+Removed Pin From Net: NetName=3V Pin=D5-2
+Removed Pin From Net: NetName=TEMP SENSE Pin=D5-3
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=D5
+Added Component: Designator=J7(Header,3POS,0.1",RA)
+Added Pin To Net: NetName=CCW_LOW_LD1 Pin=J7-3
+Added Pin To Net: NetName=CCW_LOW_LD1 Pin=U8-44
+Added Net: Name=CCW_LOW_LD1
+Added Pin To Net: NetName=CW_LOW_LD1 Pin=J7-2
+Added Pin To Net: NetName=CW_LOW_LD1 Pin=U8-43
+Added Net: Name=CW_LOW_LD1
+Added Pin To Net: NetName=ROT_SW_LD1 Pin=J7-1
+Added Pin To Net: NetName=ROT_SW_LD1 Pin=U8-45
+Added Net: Name=ROT_SW_LD1
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component J7 Generic Header

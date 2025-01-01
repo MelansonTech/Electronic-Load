@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=ISENSE Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C40-1
+Removed Pin From Net: NetName=3V Pin=C40-2
+Removed Pin From Net: NetName=GND Pin=C41-1
+Removed Pin From Net: NetName=GND Pin=D2-1
+Removed Pin From Net: NetName=3V Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=D3-1
+Removed Pin From Net: NetName=3V Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=ISENSE(+) Pin=R14-2
+Removed Pin From Net: NetName=ISENSE(-) Pin=R17-1
+Removed Pin From Net: NetName=GND Pin=R18-1
+Removed Pin From Net: NetName=ISENSE Pin=R18-2
+Removed Pin From Net: NetName=ISENSE Pin=R19-1
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C15
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C40
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=C41
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=D2
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=D3
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R10
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R14
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R17
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R18
+Removed Member From Class: ClassName=Eload Gen 3 Control Module Member=R19
+Change Component DesignItemId : Designator=U5 Old DesignItemId=Opamp,SOT5, 8Mhz, Rail to Rail, TSV911ILT New DesignItemId=OPAMP,CurrentMon,20V/V,350kHz,SOT-23-5,I INA180A1IDBVR
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R13 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R15 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R26 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R28 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R37 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R38 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R40 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R44 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R49 Old DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA New DesignItemId=Res,0805,1.00 kO,5%,200ppm,CRCW08051K00JNEA
+Change Component DesignItemId : Designator=R50 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R54 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V New DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V
+Change Component DesignItemId : Designator=R16 Old DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V New DesignItemId=Res,0805,4.7KO,0.1%,±25ppm/°C,ERA-6AEB472V
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R29 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R32 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R33 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R34 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R39 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R45 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R47 Old DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res,0805,15KO,1%,±100ppm/°C,CRGCQ0805F15K New DesignItemId=Res,0805,15KO,1%,±100ppm/°C,CRGCQ0805F15K
+Change Component DesignItemId : Designator=R27 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R30 Old DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF New DesignItemId=Res,0805,33O,±5%,200ppm,CR0805-JW-330ELF
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res,0805,82.5KO,0.1%,25ppm, TNPW080582K5BEEA New DesignItemId=Res,0805,82.5KO,0.1%,25ppm, TNPW080582K5BEEA
+Change Component DesignItemId : Designator=R46 Old DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF New DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF
+Change Component DesignItemId : Designator=R48 Old DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF New DesignItemId=Res,0805,100 kO,0.1%,25ppm,RP73PF2A100KBTDF
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R35 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R36 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R41 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R42 Old DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA New DesignItemId=Res,0805,100kO,1%,100ppm,CRCW0805100KFKEA
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component DesignItemId : Designator=R51 Old DesignItemId=Res,0805,100O,5%,±200ppm/°C New DesignItemId=Res,0805,100O,5%,±200ppm/°C
+Change Component DesignItemId : Designator=R21 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA New DesignItemId=Res,0805,221O,1%,100ppm,CRCW0805221RFKTA
+Change Component DesignItemId : Designator=R31 Old DesignItemId=res,0805,470O,5%,200ppm,CR0805-JW-471ELF New DesignItemId=res,0805,470O,5%,200ppm,CR0805-JW-471ELF
+Change Component DesignItemId : Designator=R53 Old DesignItemId=Res,0805,681.0 O,±1%,100.0 ppm/°C,150.0 V,CRCW0805681RFKEA New DesignItemId=Res,0805,681.0 O,±1%,100.0 ppm/°C,150.0 V,CRCW0805681RFKEA
+Change Component Comment : Designator=U5 Old Comment=TSV911ILT New Comment=INA180A1IDBVR
+Change Component Description : Designator=U5 Old Description=General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5 New Description=Current Sense Amplifier 1 Circuit Rail-to-Rail SOT-23-5
+Change Component Library : Designator=U5 Old Library=Master JULY2019.SchLib New Library=Master JUL_2019-Shawn.IntLib
+Added Pin To Net: NetName=ISENSE(+) Pin=U5-3
+Added Pin To Net: NetName=ISENSE(-) Pin=U5-4

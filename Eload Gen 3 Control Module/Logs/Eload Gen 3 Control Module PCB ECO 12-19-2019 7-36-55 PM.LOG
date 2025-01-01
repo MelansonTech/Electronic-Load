@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SCL Pin=R33-1
+Change Component DesignItemId : Designator=R33 Old DesignItemId=Res,0805,2.2KO,±1%,100.0 ppm/°C,150.0 V,CRCW08052K20FKEA New DesignItemId=Res,0805,10.0kO,1%,100 ppm,CRCW080510K0FKTA
+Change Component Comment : Designator=R33 Old Comment=Res1 New Comment=Vishay / Dale CRCW080510K0FKTA
+Change Component Description : Designator=R33 Old Description=RES SMD 2.2K OHM 1% 1/8W 0805 New Description=RES SMD 10K OHM 1% 1/8W 0805
+Change Component Library : Designator=R33 Old Library=Master SEPT2019.SchLib New Library=Master Oct28_2018.SchLib
+Added Component: Designator=R50(res, 0805, HD)
+Added Pin To Net: NetName=SCL Pin=R50-1
+Added Pin To Net: NetName=+3.3V Pin=R50-2
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R33 Vishay / Dale CRCW080510K0FKTA
+Added Member To Class: ClassName=Eload Gen 3 Control Module Member=Component R50 Res1
